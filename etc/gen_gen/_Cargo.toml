@@ -1,0 +1,36 @@
+[package]
+name = "mugle_gen_gen"
+version = "0.0.1"
+edition = "2018"
+authors = ["Mugle Developers <mimblewimble@lists.launchpad.net>"]
+description = "Utility to automate the generation of Mugle's genesis block"
+license = "Apache-2.0"
+repository = "https://github.com/mugleproject/mugle"
+keywords = [ "crypto", "mugle", "mimblewimble" ]
+readme = "README.md"
+
+[[bin]]
+name = "gen_gen"
+path = "src/bin/gen_gen.rs"
+
+[dependencies]
+chrono = "0.4.4"
+cuckoo_miner = "1.0.0"
+curl = "0.4.19"
+mugle_core = { path = "../../core" }
+mugle_chain = { path = "../../chain" }
+mugle_keychain = { path = "../../keychain" }
+mugle_miner_plugin = "1.0.0"
+mugle_store = { path = "../../store" }
+mugle_util = { path = "../../util" }
+mugle_wallet = { path = "../../wallet" }
+rpassword = "2.0.0"
+serde_json = "1"
+
+[patch.crates-io]
+mugle_api = { path = "../../api" }
+mugle_core = { path = "../../core" }
+mugle_chain = { path = "../../chain" }
+mugle_keychain = { path = "../../keychain" }
+mugle_util = { path = "../../util" }
+mugle_wallet = { path = "../../wallet" }
