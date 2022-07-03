@@ -1,6 +1,6 @@
 [package]
 name = "mugle_p2p"
-version = "5.1.2-alpha.1"
+version = "5.2.0-alpha.3"
 authors = ["Mugle Developers <mimblewimble@lists.launchpad.net>"]
 description = "Chain implementation for mugle, a simple, private and scalable cryptocurrency implementation based on the Mimblewimble chain format."
 license = "Apache-2.0"
@@ -22,10 +22,10 @@ log = "0.4"
 chrono = { version = "0.4.11", features = ["serde"] }
 bytes = "0.5"
 
-mugle_core = { path = "../core", version = "5.1.2-alpha.1" }
-mugle_store = { path = "../store", version = "5.1.2-alpha.1" }
-mugle_util = { path = "../util", version = "5.1.2-alpha.1" }
-mugle_chain = { path = "../chain", version = "5.1.2-alpha.1" }
+mugle_core = { path = "../core", version = "5.2.0-alpha.3" }
+mugle_store = { path = "../store", version = "5.2.0-alpha.3" }
+mugle_util = { path = "../util", version = "5.2.0-alpha.3" }
+mugle_chain = { path = "../chain", version = "5.2.0-alpha.3" }
 
 [dev-dependencies]
-mugle_pool = { path = "../pool", version = "5.1.2-alpha.1" }
+mugle_pool = { path = "../pool", version = "5.2.0-alpha.3" }

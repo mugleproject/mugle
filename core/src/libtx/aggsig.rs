@@ -14,7 +14,7 @@
 
 //! Aggregated Signature functions used in the creation of Mugle transactions.
 //! This module interfaces into the underlying
-//! [Rust Aggsig library](https://github.com/mugleproject/rust-secp256k1-zkp/blob/master/src/aggsig.rs)
+//! [Rust Aggsig library](https://github.com/mimblewimble/rust-secp256k1-zkp/blob/master/src/aggsig.rs)
 
 use crate::libtx::error::{Error, ErrorKind};
 use keychain::{BlindingFactor, Identifier, Keychain, SwitchCommitmentType};

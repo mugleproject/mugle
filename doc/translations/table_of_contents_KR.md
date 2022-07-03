@@ -29,7 +29,7 @@
 
 ## 외부자료 (위키)
 
-- [FAQ](https://github.com/mugleproject/docs/wiki/FAQ) - 자주 물어보는 질문들
-- [Mugle 빌드하기](https://github.com/mugleproject/docs/wiki/Building)
-- [Mugle을 어떻게 사용하나요?](https://github.com/mugleproject/docs/wiki/How-to-use-mugle)
-- [해킹과 기여하기](https://github.com/mugleproject/docs/wiki/Hacking-and-contributing)
+- [FAQ](https://github.com/mimblewimble/docs/wiki/FAQ) - 자주 물어보는 질문들
+- [Mugle 빌드하기](https://github.com/mimblewimble/docs/wiki/Building)
+- [Mugle을 어떻게 사용하나요?](https://github.com/mimblewimble/docs/wiki/How-to-use-mugle)
+- [해킹과 기여하기](https://github.com/mimblewimble/docs/wiki/Hacking-and-contributing)

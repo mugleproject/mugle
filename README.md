@@ -2,7 +2,7 @@
 [![Coverage Status](https://img.shields.io/codecov/c/github/mimblewimble/mugle/master.svg)](https://codecov.io/gh/mimblewimble/mugle)
 [![Chat](https://img.shields.io/gitter/room/mugle_community/Lobby.svg)](https://gitter.im/mugle_community/Lobby)
 [![Support](https://img.shields.io/badge/support-on%20gitter-brightgreen.svg)](https://gitter.im/mugle_community/support)
-[![Documentation Wiki](https://img.shields.io/badge/doc-wiki-blue.svg)](https://github.com/mugleproject/docs/wiki)
+[![Documentation Wiki](https://img.shields.io/badge/doc-wiki-blue.svg)](https://github.com/mimblewimble/docs/wiki)
 [![Release Version](https://img.shields.io/github/release/mimblewimble/mugle.svg)](https://github.com/mugleproject/mugle/releases)
 [![License](https://img.shields.io/github/license/mimblewimble/mugle.svg)](https://github.com/mugleproject/mugle/blob/master/LICENSE)
 

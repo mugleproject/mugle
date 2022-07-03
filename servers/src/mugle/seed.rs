@@ -35,13 +35,13 @@ use crate::util::StopState;
 
 // DNS Seeds with contact email associated
 const MAINNET_DNS_SEEDS: &[&str] = &["101.35.189.186", "120.48.85.227"];
-//	"mainnet.seed.mugle.icu",           // gary.peverell@protonmail.com
-//	"mainnet.seed.713.mw",             // jasper@713.mw
-//	"mainnet.seed.mugle.lesceller.com", // q.lesceller@gmail.com
-//	"mainnet.seed.mugle.prokapi.com",   // hendi@prokapi.com
-//	"mugleseed.yeastplume.org",         // yeastplume@protonmail.com
-//	"mainnet-seed.muglenode.live",      // info@muglenode.live
-//];
+// 	"mainnet.seed.mugle.icu",           // gary.peverell@protonmail.com
+// 	"mainnet.seed.713.mw",             // jasper@713.mw
+// 	"mainnet.seed.mugle.lesceller.com", // q.lesceller@gmail.com
+// 	"mainnet.seed.mugle.prokapi.com",   // hendi@prokapi.com
+// 	"mugleseed.yeastplume.org",         // yeastplume@protonmail.com
+// 	"mainnet-seed.muglenode.live",      // info@muglenode.live
+// ];
 const TESTNET_DNS_SEEDS: &[&str] = &[
 	"floonet.seed.mugle.icu",           // gary.peverell@protonmail.com
 	"floonet.seed.713.mw",              // jasper@713.mw

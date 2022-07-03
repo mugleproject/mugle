@@ -51,7 +51,7 @@ Mugle también puede compilarse en modo debug (sin la etiqueta `--release`, pero
 
 ## Errores de compilación
 
-Vea [Solución de problemas](https://github.com/mugleproject/docs/wiki/Troubleshooting)
+Vea [Solución de problemas](https://github.com/mimblewimble/docs/wiki/Troubleshooting)
 
 ## ¿Qué se ha compilado?
 
@@ -110,7 +110,7 @@ Rust (cargo) puede compilar Mugle para muchas plataformas, así que en teoría e
 
 ## Usando Mugle
 
-La página de la wiki [Cómo usar mugle](https://github.com/mugleproject/docs/wiki/How-to-use-mugle) y las páginas de enlaces tienen más información sobre las características que disponemos, resolución de problemas, etc.
+La página de la wiki [Cómo usar mugle](https://github.com/mimblewimble/docs/wiki/How-to-use-mugle) y las páginas de enlaces tienen más información sobre las características que disponemos, resolución de problemas, etc.
 
 ## Minando en Mugle
 

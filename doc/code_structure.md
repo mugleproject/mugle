@@ -49,7 +49,7 @@ After checking out mugle, building and using, these are the folders you'll have:
   Data store - Mugle uses near-zero-cost Rust wrapper around LMDB, key-value embedded data store.
 - `target`\
   Where the mugle binary ends up, after the compile and build process finishes.
-  In case of trouble, see [troubleshooting](https://github.com/mugleproject/docs/wiki/Troubleshooting)
+  In case of trouble, see [troubleshooting](https://github.com/mimblewimble/docs/wiki/Troubleshooting)
 - `util`\
   Low-level rust utilities.
 - `wallet`\
@@ -59,5 +59,5 @@ After checking out mugle, building and using, these are the folders you'll have:
 
 ## mugle dependencies
 
-- [secp256k1](https://github.com/mugleproject/rust-secp256k1-zkp)
+- [secp256k1](https://github.com/mimblewimble/rust-secp256k1-zkp)
   Integration and rust bindings for libsecp256k1, and some changes waiting to be upstreamed. Imported in util/Cargo.toml.

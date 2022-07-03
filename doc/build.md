@@ -52,7 +52,7 @@ Mugle can also be built in debug mode (without the `--release` flag, but using t
 
 ## Build errors
 
-See [Troubleshooting](https://github.com/mugleproject/docs/wiki/Troubleshooting)
+See [Troubleshooting](https://github.com/mimblewimble/docs/wiki/Troubleshooting)
 
 ## What was built?
 
@@ -127,7 +127,7 @@ say, for a Raspberry Pi.
 
 ## Using mugle
 
-The wiki page [Wallet User Guide](https://github.com/mugleproject/docs/wiki/Wallet-User-Guide)
+The wiki page [Wallet User Guide](https://github.com/mimblewimble/docs/wiki/Wallet-User-Guide)
 and linked pages have more information on what features we have,
 troubleshooting, etc.
 

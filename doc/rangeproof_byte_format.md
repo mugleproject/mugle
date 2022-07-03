@@ -2,7 +2,7 @@
 
 Mugle uses [Bulletproofs](https://eprint.iacr.org/2017/1066.pdf) range proofs. The currently most efficient range proofs which do not require a trusted setup.
 
-Mugle uses [mimblewimble/secp256k1-zkp](https://github.com/mugleproject/secp256k1-zkp), a fork of the Blockstream C library [ElementsProject/secp256k1-zkp](https://github.com/ElementsProject/secp256k1-zkp), which has Bulletproofs implemented but not yet merged into the main branch.
+Mugle uses [mimblewimble/secp256k1-zkp](https://github.com/mimblewimble/secp256k1-zkp), a fork of the Blockstream C library [ElementsProject/secp256k1-zkp](https://github.com/ElementsProject/secp256k1-zkp), which has Bulletproofs implemented but not yet merged into the main branch.
 
 In this document I will explain how to recover the proof parameters from the output bytes. Note that I will name the parameters as they are named in the C library, which might be slightly different then to the paper in some cases.
 

@@ -32,7 +32,7 @@
 
 ## External (wiki)
 
-- [FAQ](https://github.com/mugleproject/docs/wiki/FAQ) - Frequently Asked Questions
-- [Building mugle](https://github.com/mugleproject/docs/wiki/Building)
-- [How to use mugle](https://github.com/mugleproject/docs/wiki/How-to-use-mugle)
-- [Hacking and contributing](https://github.com/mugleproject/docs/wiki/Hacking-and-contributing)
+- [FAQ](https://github.com/mimblewimble/docs/wiki/FAQ) - Frequently Asked Questions
+- [Building mugle](https://github.com/mimblewimble/docs/wiki/Building)
+- [How to use mugle](https://github.com/mimblewimble/docs/wiki/How-to-use-mugle)
+- [Hacking and contributing](https://github.com/mimblewimble/docs/wiki/Hacking-and-contributing)

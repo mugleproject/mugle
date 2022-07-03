@@ -194,6 +194,6 @@ Mugle implements a simplified version of the Dandelion++ protocol. It's been imp
 * [1] (Sigmetrics 2018) [Dandelion++: Lightweight Cryptocurrency Networking with Formal Anonymity Guarantees](https://arxiv.org/abs/1805.11060)
 * [2] (Sigmetrics 2017) [Dandelion: Redesigning the Bitcoin Network for Anonymity](https://arxiv.org/abs/1701.04439)
 * [3] [Dandelion BIP](https://github.com/dandelion-org/bips/blob/master/bip-dandelion.mediawiki)
-* [4] [Mugle Privacy Primer](https://github.com/mugleproject/docs/wiki/Mugle-Privacy-Primer)
+* [4] [Mugle Privacy Primer](https://github.com/mimblewimble/docs/wiki/Mugle-Privacy-Primer)
 * [5] [#2628: Dandelion++ Rewrite](https://github.com/mugleproject/mugle/pull/2628)
 * [6] [#2876: Always stem local txs if configured that way (unless explicitly fluffed)](https://github.com/mugleproject/mugle/pull/2876)

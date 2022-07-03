@@ -159,6 +159,8 @@ pub fn genesis_test() -> core::Block {
 /// Mainnet genesis block
 #[allow(clippy::inconsistent_digit_grouping)]
 pub fn genesis_main() -> core::Block {
+	// for eac : test
+	//timestamp: Utc.ymd(2019, 1, 15).and_hms(16, 1, 26),
 	let gen = core::Block::with_header(core::BlockHeader {
 		height: 0,
 		timestamp: Utc.ymd(2022, 6, 19).and_hms(8, 1, 26),
@@ -281,9 +283,7 @@ mod test {
 	fn testnet_genesis_hash() {
 		global::set_local_chain_type(global::ChainTypes::Testnet);
 		let gen_hash = genesis_test().hash();
-		println!("testnet genesis hash: {}", gen_hash.to_hex());
 		let gen_bin = ser::ser_vec(&genesis_test(), ProtocolVersion(1)).unwrap();
-		println!("testnet genesis full hash: {}\n", gen_bin.hash().to_hex());
 		assert_eq!(
 			gen_hash.to_hex(),
 			"edc758c1370d43e1d733f70f58cf187c3be8242830429b1676b89fd91ccf2dab"

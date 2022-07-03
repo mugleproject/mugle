@@ -50,7 +50,7 @@ Mugle也可以在 debug 模式下构建（不带 `--release` 参数，或是使�
 
 ## 构建错误
 
-详见 [故障排除](https://github.com/mugleproject/docs/wiki/Troubleshooting)
+详见 [故障排除](https://github.com/mimblewimble/docs/wiki/Troubleshooting)
 
 ## 构建得到了什么？
 
@@ -116,7 +116,7 @@ Rust（cargo）可以在许多平台上构建 mugle，因此从理论上讲，�
 
 ## 使用 mugle
 
-Wiki页面 [Wallet User Guide](https://github.com/mugleproject/docs/wiki/Wallet-User-Guide) 和链接页面提供了有关我们提供的功能，故障排除等更多信息。
+Wiki页面 [Wallet User Guide](https://github.com/mimblewimble/docs/wiki/Wallet-User-Guide) 和链接页面提供了有关我们提供的功能，故障排除等更多信息。
 
 ## 在 Mugle 中挖矿
 

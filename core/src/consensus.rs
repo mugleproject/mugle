@@ -24,7 +24,7 @@ use crate::global;
 use crate::pow::Difficulty;
 use std::cmp::{max, min};
 
-/// A mugle is divisible to 10^9, following the SI prefixes
+/// A mugle is divisible to 10^5, following the SI prefixes
 //pub const MUGLE_BASE: u64 = 1_000_000_000;
 pub const MUGLE_BASE: u64 = 1_000_000;
 /// Millimugle, a thousand of a mugle
@@ -39,8 +39,10 @@ pub const NANO_MUGLE: u64 = 1;
 /// with Cuckoo Cycle, networks improve and block propagation is optimized
 /// (adjusting the reward accordingly).
 pub const BLOCK_TIME_SEC: u64 = 60;
+//pub const BLOCK_TIME_SEC: u64 = 12;
 
 /// The block subsidy amount, one mugle per second on average
+//pub const REWARD: u64 = BLOCK_TIME_SEC * MUGLE_BASE;
 pub const REWARD: u64 = BLOCK_TIME_SEC * MUGLE_BASE * 1_000;
 
 /// Actual block reward for a given total fee amount
@@ -374,6 +376,7 @@ where
 	let last_diff = last_header.difficulty.to_num();
 
 	// wtema difficulty update
+	//println!("test a a:{}", BLOCK_TIME_SEC);
 	let next_diff =
 		last_diff * WTEMA_HALF_LIFE / (WTEMA_HALF_LIFE - BLOCK_TIME_SEC + last_block_time);
 

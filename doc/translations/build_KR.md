@@ -53,7 +53,7 @@ Mugle은 Debug 모드로 Build 할 수 있습니다. (`--release` 플래그가 �
 
 ## Build 에러들
 
-[트러블 슈팅 관련해서는 이 링크를 클릭하세요.](https://github.com/mugleproject/docs/wiki/Troubleshooting)
+[트러블 슈팅 관련해서는 이 링크를 클릭하세요.](https://github.com/mimblewimble/docs/wiki/Troubleshooting)
 
 ## 무엇을 Build 해야 되나요?
 
@@ -121,7 +121,7 @@ Rust(Cargo)는 여러 플랫폼에서 Mugle을 빌드 할 수 있습니다. 그�
 
 ## Mugle 사용하기
 
-[지갑 유저 가이드](https://github.com/mugleproject/docs/wiki/Wallet-User-Guide) 위키페이지와 링크된 페이지들은 어떤 Feature 를 가지고 있는지 , 트러블 슈팅 등등에 대한 좀 더 많은 정보를 가지고 있습니다.
+[지갑 유저 가이드](https://github.com/mimblewimble/docs/wiki/Wallet-User-Guide) 위키페이지와 링크된 페이지들은 어떤 Feature 를 가지고 있는지 , 트러블 슈팅 등등에 대한 좀 더 많은 정보를 가지고 있습니다.
 
 ## Mugle 채굴하기
 

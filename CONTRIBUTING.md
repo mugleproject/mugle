@@ -33,7 +33,7 @@ In case of problems with trying out mugle, before starting to contribute, there'
 * Please [join the mugle Lobby](https://gitter.im/mugle_community/Lobby) to get a feeling for the community.
 * And [see the developers chat](https://gitter.im/mugle_community/dev) if you have questions about source code files.
   If you explain what you're looking at and what you want to do, we'll try to help you along the way.
-* Also see `docs/*.md` and the folder structure explanations, and [the wiki](https://github.com/mugleproject/docs/wiki).
+* Also see `docs/*.md` and the folder structure explanations, and [the wiki](https://github.com/mimblewimble/docs/wiki).
 * Further information and discussions are in the [Forum](https://forum.mugle.mw), the [website](https://mugle.mw), the [mailing list](https://lists.launchpad.net/mimblewimble/) and news channels like the [@muglecouncil](https://twitter.com/muglecouncil) and a (mostly unfiltered!) Twitter bot that collects headlines, mailing list posts, and reddit posts related to Mimblewimble/Mugle: [@muglemw](https://twitter.com/muglemw)
 
 ## Testing
@@ -50,7 +50,7 @@ The most important thing you can do alongside - or even before - changing code, 
 
 After that, if you want to raise code quality another level, you can use `cargo check`, `cargo cov test` and `cargo tarpaulin`. Install them with `cargo install cargo-check cargo-cov; RUSTFLAGS="--cfg procmacro2_semver_exempt" cargo install cargo-tarpaulin`. Run with `cargo cov test` and `cargo tarpaulin`. The quality check tools are often integrated with `rustc` and as a side-effect only activated when some code is compiled. Because of this, if you want a complete check you'll need to `cargo clean` first.
 
-We have some details on [code coverage and historical numbers on the wiki](https://github.com/mugleproject/docs/wiki/Code-coverage-and-metrics).
+We have some details on [code coverage and historical numbers on the wiki](https://github.com/mimblewimble/docs/wiki/Code-coverage-and-metrics).
 
 # Pull-Request Title Prefix
 

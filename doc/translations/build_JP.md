@@ -51,7 +51,7 @@ mugleはデバッグモードでもビルド可能(`--release`を付けない状
 
 ## ビルドエラー
 
-[Troubleshooting](https://github.com/mugleproject/docs/wiki/Troubleshooting)
+[Troubleshooting](https://github.com/mimblewimble/docs/wiki/Troubleshooting)
 
 ## 何がビルドされるか
 
@@ -119,7 +119,7 @@ x86のLinux上で`mugle`をクロスコンパイルしARMバイナリを作成�
 
 ## mugleの使用
 
-機能やトラブルシューティングなどに関するより多くの情報については[Wallet User Guide](https://github.com/mugleproject/docs/wiki/Wallet-User-Guide)。
+機能やトラブルシューティングなどに関するより多くの情報については[Wallet User Guide](https://github.com/mimblewimble/docs/wiki/Wallet-User-Guide)。
 
 
 ## mugleのマイニング

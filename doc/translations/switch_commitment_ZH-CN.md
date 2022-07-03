@@ -138,7 +138,7 @@ Pedersen Commitments 是**计算绑定**和**完美隐匿**。预设秘诺值为
 
 这一绝妙的方案就从输出中移除了秘诺切换哈希（详情请参阅 [pull requests](https://github.com/mugleproject/mugle/issues/998)），这样就可以轻松纳入 Pedersen Commitment。
 
-这就是 Mugle 目前的秘诺部署方案。Pedersen Commitment 用作机密交易 (Confidential Transaction)，但没有单纯随机选择致盲因子 `r`，而是在一个随机数 `r` 添加 ElGamal commitment 函数来计算（详情请参阅 [main_impl.h#L267](https://github.com/mugleproject/secp256k1-zkp/blob/73617d0fcc4f51896cce4f9a1a6977a6958297f8/src/modules/commitment/main_impl.h#L267)）。
+这就是 Mugle 目前的秘诺部署方案。Pedersen Commitment 用作机密交易 (Confidential Transaction)，但没有单纯随机选择致盲因子 `r`，而是在一个随机数 `r` 添加 ElGamal commitment 函数来计算（详情请参阅 [main_impl.h#L267](https://github.com/mimblewimble/secp256k1-zkp/blob/73617d0fcc4f51896cce4f9a1a6977a6958297f8/src/modules/commitment/main_impl.h#L267)）。
 
 总之，秘诺切换是在论文[《秘诺切换：安全切换机密交易》](https://eprint.iacr.org/2017/237.pdf)中首次提出。“切换”一词来源于未来可以随意“扳动开关”这一想法。仅仅变更验证程序就可以更改秘诺绑定性和隐匿性特性强弱，未来的更改甚至可与创建的历史秘诺兼容。
 

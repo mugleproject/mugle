@@ -245,7 +245,7 @@ could be easily included into the Pedersen Commitments.
 This is how it is currently implemented in Mugle. Pedersen commitments are
 used for the Confidential Transaction but instead of choosing the blinding factor `r`
 only by random, it is calculated by adding the hash of an ElGamal commitment to a random `r'`
-(see here in [main_impl.h#L267](https://github.com/mugleproject/secp256k1-zkp/blob/73617d0fcc4f51896cce4f9a1a6977a6958297f8/src/modules/commitment/main_impl.h#L267)).
+(see here in [main_impl.h#L267](https://github.com/mimblewimble/secp256k1-zkp/blob/73617d0fcc4f51896cce4f9a1a6977a6958297f8/src/modules/commitment/main_impl.h#L267)).
 
 
 In general switch commitments were first described in the paper

@@ -31,7 +31,7 @@
 
 ## 其他  (wiki)
 
-- [FAQ](https://github.com/mugleproject/docs/wiki/FAQ) - 常见问题
-- [构建 Mugle](https://github.com/mugleproject/docs/wiki/Building)
-- [如何使用 Mugle](https://github.com/mugleproject/docs/wiki/How-to-use-mugle)
-- [开发和贡献](https://github.com/mugleproject/docs/wiki/Hacking-and-contributing)
+- [FAQ](https://github.com/mimblewimble/docs/wiki/FAQ) - 常见问题
+- [构建 Mugle](https://github.com/mimblewimble/docs/wiki/Building)
+- [如何使用 Mugle](https://github.com/mimblewimble/docs/wiki/How-to-use-mugle)
+- [开发和贡献](https://github.com/mimblewimble/docs/wiki/Hacking-and-contributing)

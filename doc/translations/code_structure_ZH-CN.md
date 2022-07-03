@@ -50,7 +50,7 @@ List of files tracked in `git` and some files you'll create when you use mugle.
   数据存储 - Mugle 在 LMDB（键值嵌入式数据存储）周围使用了接近零成本的 Rust 包装器。
 - `target`\
   在编译和构建过程完成之后，mugle 的二进制文件所在的位置。
-  万一遇到麻烦，请参阅[troubleshooting](https://github.com/mugleproject/docs/wiki/Troubleshooting)
+  万一遇到麻烦，请参阅[troubleshooting](https://github.com/mimblewimble/docs/wiki/Troubleshooting)
 - `util`\
   底层 rust 工具。
 - `wallet`\
@@ -60,5 +60,5 @@ List of files tracked in `git` and some files you'll create when you use mugle.
 
 ## mugle 依赖
 
-- [secp256k1](https://github.com/mugleproject/rust-secp256k1-zkp)
+- [secp256k1](https://github.com/mimblewimble/rust-secp256k1-zkp)
   libsecp256k1 的集成和 rust 绑定，还有一些更动等待更新。在 util/Cargo.toml 中被导入。
